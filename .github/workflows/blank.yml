@@ -44,7 +44,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: new-hello.html test
-        run: npx htmlhint new-hello.html
+        run: 
+          npx htmlhint new-hello.html
+          npx htmlhint index.html
         
       
       
